@@ -1,10 +1,12 @@
 #Problem 1
 #Generate a list of numbers from 30 to 60 with interval 5
-nums = list(range(30,65,5))
-print(nums)
+list=[]
+for item in range (30,65,5):
+    list.append(item)
+print(list)
 
 #Order the list in reversed order
-print(nums[::-1])
+print(list[::-1])
 
 #Insert 65 to the beginning of the list 
 list = [60,55,50,45,40,35,30]
@@ -39,10 +41,9 @@ print(sum(list1))
 weather_dictionary = {'sunny': 'play', 'rainy': 'watch TV', 'cloudy': 'walk'}
 
 #Using for loop 
-for key, value in weather_action.items():
+for key, value in weather_dictionary.items():
     print('When', key, 'let us', value)
     
 #Adding new pair to the dictionary
 weather_dictionary['snowy']='ski'
 print(weather_dictionary)
-
