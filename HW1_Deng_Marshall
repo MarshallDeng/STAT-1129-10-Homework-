@@ -1,0 +1,48 @@
+#Problem 1
+#Generate a list of numbers from 30 to 60 with interval 5
+nums = list(range(30,65,5))
+print(nums)
+
+#Order the list in reversed order
+print(nums[::-1])
+
+#Insert 65 to the beginning of the list 
+list = [60,55,50,45,40,35,30]
+list.insert(0,65)
+print(list)
+
+
+
+#Problem 2
+#Create an empty list 
+list1=[]
+for item in range (0,21):
+    list1.append(item)
+print(list1)
+
+#Delete item 0
+list1.remove(0)
+print(list1)
+
+#Return the length, maximum, and minimum of the list
+print(len(list1))
+print(max(list1))
+print(min(list1))
+
+#Sum of the list 
+print(sum(list1))
+
+
+
+#Problem 3
+#Create a weather dictionary
+weather_dictionary = {'sunny': 'play', 'rainy': 'watch TV', 'cloudy': 'walk'}
+
+#Using for loop 
+for key, value in weather_action.items():
+    print('When', key, 'let us', value)
+    
+#Adding new pair to the dictionary
+weather_dictionary['snowy']='ski'
+print(weather_dictionary)
+
